@@ -1,0 +1,8 @@
+// Cloudflare Workers config — deploy with: wrangler deploy
+{
+  "name": "woodlani",
+  "compatibility_date": "2026-07-09",
+  "assets": {
+    "directory": "."
+  }
+}
