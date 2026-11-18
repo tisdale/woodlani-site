@@ -25,6 +25,10 @@ Hosted on a Cloudflare Worker (`woodlani`) serving static assets, bound to
 - **Manual:** `wrangler deploy` from the repo root (direct upload, no commit
   needed). Rollbacks: `wrangler versions list` / `wrangler rollback`.
 
+**Keep the repo as the source of truth.** Commit and push before (or right
+after) any manual `wrangler deploy`. A manual deploy that isn't committed is
+overwritten by the next push to `main`.
+
 ## Preview locally
 
 ```bash

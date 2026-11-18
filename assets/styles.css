@@ -192,6 +192,7 @@ a:hover { color: var(--accent-ink); }
   background: var(--bg); transition: border-color 0.2s ease, transform 0.2s ease;
 }
 .case:hover { border-color: var(--ink); transform: translateY(-2px); }
+@media (min-width: 760px) { .case--feature { grid-column: 1 / -1; } }
 .case__head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
 .case h3 { margin-bottom: 0.5rem; }
 .case__impact { font-family: var(--mono); font-size: 0.75rem; color: var(--accent); white-space: nowrap; }
@@ -217,7 +218,11 @@ a:hover { color: var(--accent-ink); }
 /* ---------- Contact ---------- */
 .contact { text-align: center; }
 .contact h2 { margin-bottom: 1rem; }
-.contact .lead { margin-inline: auto; margin-bottom: 2rem; }
+.contact .lead { margin-inline: auto; margin-bottom: 1rem; }
+.contact__avail {
+  font-family: var(--mono); font-size: 0.8rem; letter-spacing: 0.08em;
+  color: var(--accent); margin: 0 0 2rem;
+}
 .contact__links { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; }
 
 /* ---------- Footer ---------- */
