@@ -1,7 +1,7 @@
 # woodlani.com
 
-Personal consulting & portfolio site for Ed Tisdale — RevOps / GTM engineering and
-Salesforce + AI systems. Single-page static site: hand-written HTML/CSS/JS, no
+Personal consulting site for Ed Tisdale — independent RevOps consulting across
+Salesforce, HubSpot, and AI systems. Single-page static site: hand-written HTML/CSS/JS, no
 framework, no build step.
 
 **Live:** [woodlani.com](https://woodlani.com)

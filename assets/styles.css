@@ -175,6 +175,13 @@ a:hover { color: var(--accent-ink); }
 .svc__num { font-family: var(--mono); font-size: 0.8rem; color: var(--accent); }
 .svc h3 { margin: 0.6rem 0 0.5rem; }
 .svc p { color: var(--muted); font-size: 0.97rem; margin: 0; }
+.svc p strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- Engagements ---------- */
+.engage__grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-top: 2.5rem; }
+@media (min-width: 820px) { .engage__grid { grid-template-columns: repeat(3, 1fr); } }
+.engage .svc__num { text-transform: uppercase; letter-spacing: 0.12em; }
+.engage__note { margin: 2rem 0 0; color: var(--muted); font-size: 0.97rem; max-width: var(--readw); }
 
 /* ---------- Work ---------- */
 .work__grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin-top: 2.5rem; }
